@@ -1,5 +1,5 @@
 <div *ngIf="newTask">
-  <app-new-task (cancel)="onCancel()" (add)="onAddNewTask($event)"/>
+  <app-new-task (close)="onClose()" [userId]="userId"></app-new-task>
 </div>
 
 <section id="tasks">
