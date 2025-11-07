@@ -1,23 +1,54 @@
-# Essentials
+# 🧩 Essentials
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+This project was generated with **Angular CLI version 17.1.2**.
 
-## Development server
+## 🚀 Development server
+Run the following command to start a development server:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```bash
+ng serve
+```
 
-## Code scaffolding
+Then navigate to [http://localhost:4200/](http://localhost:4200/).  
+The application will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🧱 Code scaffolding
+Generate a new component or other Angular elements with:
 
-## Build
+```bash
+ng generate component component-name
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+You can also use:
 
-## Running end-to-end tests
+```bash
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🏗️ Build
+Run the following command to build the project:
 
-## Further help
+```bash
+ng build
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The build artifacts will be stored in the `dist/` directory.
+
+## 🧪 Running end-to-end tests
+Run the following command to execute end-to-end tests via your preferred platform:
+
+```bash
+ng e2e
+```
+
+> To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## 📖 Further help
+For more help on the Angular CLI, use:
+
+```bash
+ng help
+```
+
+Or visit the official documentation:  
+👉 [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli)
